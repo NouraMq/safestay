@@ -78,7 +78,7 @@
                 <div class="feature-icon">
                     <i class="bi bi-phone-fill"></i>
                 </div>
-                <h3>سهولة الحجز</h3>
+               <!-- !-->  <h3>سهولة الحجز</h3>
                 <p>احجز سكنك ونقلك في دقائق من خلال منصتنا السهلة والبسيطة</p>
             </div>
             <div class="feature-card">
