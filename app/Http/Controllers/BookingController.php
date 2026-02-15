@@ -13,7 +13,8 @@ class BookingController extends Controller
     // عرض جميع الحجوزات
     public function index()
     {
-        $bookings = Booking::with(['accommodation', 'transport'])->get();
+        $bookings = Booking::with(['accom
+        \modation', 'transport'])->get();
         return view('bookings.index', compact('bookings'));
     }
 

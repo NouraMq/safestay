@@ -7,6 +7,12 @@ use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\PageController;
 
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Route::resource('accommodations', AccommodationController::class);
 // الصفحة الرئيسية
 Route::get('/', function () {
     return view('Home/home');
